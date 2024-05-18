@@ -4,7 +4,7 @@ import SupportChatButton from "../components/supportchatbutton"
 function HomePage() {
   return (
     <div className="flex">
-        <div><Header/></div>
+        <div className="w-full"><Header/></div>
     </div>
   )
 }
