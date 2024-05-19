@@ -17,30 +17,30 @@ function SideBar({ index_pass }) {
   const [open, setOpen] = useState(false);
   const Menus = [
     { title: "Home Page", src: <MdHome />, href: "/admin" },
-    { title: "Inpox", src: <MdOutlineForwardToInbox />, href: "/admin_inbox" },
+    { title: "Inpox", src: <MdOutlineForwardToInbox />, href: "/admin/admin_inbox" },
     {
       title: "Create Admin Accounts",
       src: <MdAdminPanelSettings />,
       gap: false,
-      href: "/create_admin_account",
+      href: "/admin/create_admin_account",
     },
     {
       title: "Clint",
       src: <MdOutlineSupervisorAccount />,
-      href: "/admin_clint",
+      href: "/admin/admin_clint",
     },
-    { title: "Settings", src: <TbSettings />, href: "/admin_settings" },
+    { title: "Settings", src: <TbSettings />, href: "/admin/admin_settings" },
     {
       title: "Portfolio",
       src: <PiChalkboardSimpleBold />,
       gap: false,
       href: "/admin_portfolo",
     },
-    { title: "Blogs", src: <FaBlogger />, href: "/admin_blog" },
+    { title: "Blogs", src: <FaBlogger />, href: "/admin/admin_blog" },
     {
       title: "Intern Requirement",
       src: <FiBookOpen />,
-      href: "/admin_intern_rec",
+      href: "/admin/admin_intern_rec",
     },
   ];
   return (

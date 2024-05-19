@@ -1,15 +1,15 @@
+import React from 'react'
 import Header from "../components/Header"
-import SupportChatButton from "../components/supportchatbutton"
 
-function HomePage() {
+function PortfolioPage() {
   return (
     <>
     <div className="flex">
         <div className="w-full"><Header/></div>
     </div>
-    <div>Home Page</div>
+    <div>Portfolio Page</div>
     </>
   )
 }
 
-export default HomePage
+export default PortfolioPage
